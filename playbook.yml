@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - pre-flight
+    - grab-assets
+    - push-configs
+    - update-installer-image
+    - upload-installer-image
