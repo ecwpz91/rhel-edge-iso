@@ -1,3 +1,12 @@
 ---
 
 source_installer_image: rhel-edge-hmi-image.iso
+controller_hostname: localhost
+rhc_org_id: 1234567
+rhc_activation_key: virtual_key
+demo_uuid: uuid01
+controller_inventory: insertcontrollerhere
+controller_username: insertusernamehere
+controller_password: insertpasswordhere
+provisioning_template: yourtemplatehere
+audience: Ops
