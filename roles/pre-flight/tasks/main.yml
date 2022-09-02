@@ -32,7 +32,7 @@
     resizefs: yes
 
 # dirty workaround since vmware_copy module doesn't work
-- name: install nfs-utils
-  ansible.builtin.dnf:
-    name: nfs-utils
+# - name: install nfs-utils
+#   ansible.builtin.dnf:
+#     name: nfs-utils
   
